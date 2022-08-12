@@ -1,0 +1,18 @@
+Package: BCRPLeslie
+Title: Descarga de datos 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Leslie", "Arroyo", , "leslie.arroyo.mendoza@gmail.com", role = c("aut", "cre"))
+Description: Paquete para descargar datos del BCRP.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports:
+ dplyr,
+ fredr,
+ magrittr,
+ rvest,
+ tidyr,
+ zoo
